@@ -13,7 +13,7 @@ int main() {
         float D = sqrt(-1*d);
         float ry = D/(2*a);
 
-        printf("roots are negative\nRoot1 = %f+i%f\nRoot2 = %f-i%f", rx, ry, rx, ry);
+        printf("roots are unreal\nRoot1 = %f+i%f\nRoot2 = %f-i%f", rx, ry, rx, ry);
     }
     else {
         float rx = -b/(2*a);
