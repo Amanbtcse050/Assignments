@@ -1,3 +1,3 @@
-gcc ex4.c -o p
+gcc ex4.c -o p -lm
 ./p
 gcc ex4.c -o p
