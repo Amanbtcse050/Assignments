@@ -1,6 +1,3 @@
-// 6. Find out all peak elements in the array.
-// A peak element is greater than its immediate neighbours.
-// Boundary elements are compared only with their single neighbour.
 #include <stdio.h>
 
 int main() {

@@ -1,4 +1,3 @@
-// 5. WAP that searches a particular element entered by the user and returns its index position.
 #include <stdio.h>
 
 int main() {

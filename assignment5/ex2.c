@@ -1,4 +1,3 @@
-// 2. WAP to find all the duplicate elements in the array.
 #include <stdio.h>
 
 int main() {
@@ -15,7 +14,7 @@ int main() {
     int found = 0;
     for (int i = 0; i < n; i++) {
         int isDupWithEarlier = 0;
-        // check if this value already printed (appeared before index i)
+
         for (int k = 0; k < i; k++) {
             if (arr[k] == arr[i]) {
                 isDupWithEarlier = 1;
