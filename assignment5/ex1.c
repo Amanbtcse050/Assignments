@@ -13,12 +13,11 @@ int main() {
 
     printf("Reversed array: ");
     for (int i = n - 1; i >= 0; i--){
-
-        printf("%d ", arr[i]);
-        revarr[n-1-i];
+        revarr[n-1-i] = arr[i];
     }
+    
     for (int i = 0; i < n; i++)
-        printf("%d", revarr[i]);
+        printf("%d ", revarr[i]);
         
     printf("\n");
 
