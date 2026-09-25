@@ -18,7 +18,7 @@ int main() {
     }
     for(int i=0;i<n;i++){
 
-        if(slarg<arr[i]&&slarg!=larg)
+        if(slarg<arr[i]&&arr[i]!=larg)
             slarg = arr[i];
         
     }
