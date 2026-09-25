@@ -13,5 +13,5 @@ int main() {
         printf("perfect number");
     }
     else
-        printf("not perfect number%d", sum);
+        printf("not perfect number");
 }

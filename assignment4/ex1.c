@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main() {
-    int n1, n2;
     
     printf("n\tn^2\tn^3\tn^4\n");
 

@@ -1,12 +1,9 @@
-
 #include <stdio.h>
 
 int main() {
     int L, W, H;
-    
     printf("Enter side length L:\n");
     scanf("%d", &L);
-    
     printf("Enter dimensions W and H:\n");
     scanf("%d %d", &W, &H);
     
@@ -19,7 +16,6 @@ int main() {
         } else {
             printf("CROP IT\n");
         }
-    }
-    
+    }   
     return 0;
 }
