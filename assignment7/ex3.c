@@ -16,4 +16,24 @@ int main()
     for(int i = 0;i<m;i++){
         scanf("%d", &a[i]);
     }
+    int k = n>m?n:m;
+    int indx = 0;
+    int c[k];
+    for(int i = 0;i<n;i++){
+        for(int j =0;j<m;j++){
+            if (a[i]!=b[j])
+            {
+                a[i] = c[k];
+                k++;
+                b[j] = c[k];
+                k++;
+            }
+        }
+    }
+
+    for(int i = 0;i<k;i++){
+        printf("%d/n", c[i]);
+    }
+
+
 }
